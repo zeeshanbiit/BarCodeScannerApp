@@ -11,6 +11,7 @@
 		1A85619B2C3DE1D1004BA1E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A85619A2C3DE1D1004BA1E0 /* ContentView.swift */; };
 		1A85619D2C3DE1D3004BA1E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A85619C2C3DE1D3004BA1E0 /* Assets.xcassets */; };
 		1A8561A02C3DE1D3004BA1E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A85619F2C3DE1D3004BA1E0 /* Preview Assets.xcassets */; };
+		1AFABC1B2C3F191E0022B01A /* BarCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFABC1A2C3F191E0022B01A /* BarCodeScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1A85619A2C3DE1D1004BA1E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A85619C2C3DE1D3004BA1E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A85619F2C3DE1D3004BA1E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1AFABC1A2C3F191E0022B01A /* BarCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1A8561982C3DE1D1004BA1E0 /* BarCodeScannerAppApp.swift */,
 				1A85619A2C3DE1D1004BA1E0 /* ContentView.swift */,
+				1AFABC1A2C3F191E0022B01A /* BarCodeScannerView.swift */,
 				1A85619C2C3DE1D3004BA1E0 /* Assets.xcassets */,
 				1A85619E2C3DE1D3004BA1E0 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				1A85619B2C3DE1D1004BA1E0 /* ContentView.swift in Sources */,
 				1A8561992C3DE1D1004BA1E0 /* BarCodeScannerAppApp.swift in Sources */,
+				1AFABC1B2C3F191E0022B01A /* BarCodeScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
