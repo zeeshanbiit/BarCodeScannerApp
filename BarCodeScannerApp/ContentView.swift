@@ -67,7 +67,8 @@ struct ProfileInfoView:View {
         HStack {
             Image(systemName: "person.circle.fill")
                 .resizable()
-                .frame(width: 30, height: 30)
+                .scaledToFill()
+                .frame(width: 50, height: 50)
                 .padding()
             
             VStack(alignment: .leading) {
