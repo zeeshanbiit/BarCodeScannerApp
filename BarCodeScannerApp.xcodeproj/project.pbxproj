@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A3FBFE42C408A8A00B43AAA /* BarCodeScannerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FBFE32C408A8A00B43AAA /* BarCodeScannerViewDelegate.swift */; };
+		1A3FBFE62C40972900B43AAA /* CoodinatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FBFE52C40972900B43AAA /* CoodinatorVC.swift */; };
 		1A8561992C3DE1D1004BA1E0 /* BarCodeScannerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8561982C3DE1D1004BA1E0 /* BarCodeScannerAppApp.swift */; };
 		1A85619B2C3DE1D1004BA1E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A85619A2C3DE1D1004BA1E0 /* ContentView.swift */; };
 		1A85619D2C3DE1D3004BA1E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A85619C2C3DE1D3004BA1E0 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A3FBFE32C408A8A00B43AAA /* BarCodeScannerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeScannerViewDelegate.swift; sourceTree = "<group>"; };
+		1A3FBFE52C40972900B43AAA /* CoodinatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoodinatorVC.swift; sourceTree = "<group>"; };
 		1A8561952C3DE1D1004BA1E0 /* BarCodeScannerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCodeScannerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8561982C3DE1D1004BA1E0 /* BarCodeScannerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeScannerAppApp.swift; sourceTree = "<group>"; };
 		1A85619A2C3DE1D1004BA1E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 				1A8561982C3DE1D1004BA1E0 /* BarCodeScannerAppApp.swift */,
 				1A85619A2C3DE1D1004BA1E0 /* ContentView.swift */,
 				1AFABC1A2C3F191E0022B01A /* BarCodeScannerView.swift */,
+				1A3FBFE32C408A8A00B43AAA /* BarCodeScannerViewDelegate.swift */,
+				1A3FBFE52C40972900B43AAA /* CoodinatorVC.swift */,
 				1A85619C2C3DE1D3004BA1E0 /* Assets.xcassets */,
 				1A85619E2C3DE1D3004BA1E0 /* Preview Content */,
 			);
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A85619B2C3DE1D1004BA1E0 /* ContentView.swift in Sources */,
+				1A3FBFE62C40972900B43AAA /* CoodinatorVC.swift in Sources */,
 				1A8561992C3DE1D1004BA1E0 /* BarCodeScannerAppApp.swift in Sources */,
+				1A3FBFE42C408A8A00B43AAA /* BarCodeScannerViewDelegate.swift in Sources */,
 				1AFABC1B2C3F191E0022B01A /* BarCodeScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +287,7 @@
 				DEVELOPMENT_TEAM = RQ4TJS6A92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "allow camera to caption the QR Code";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +317,7 @@
 				DEVELOPMENT_TEAM = RQ4TJS6A92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "allow camera to caption the QR Code";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
